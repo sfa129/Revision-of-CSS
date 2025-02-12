@@ -27,6 +27,7 @@
 
 .border {
     border: 1.5px solid transparent;
+    padding: 7px 7px 7px 7px;
 }
 
 .border:hover {
@@ -56,7 +57,13 @@
     display: flex;
     width: 620px;
     height: 40px;
-    /* background-color: rgb(125, 205, 50); */
+}
+
+.search-bar:hover {
+    border: 3px solid orange;
+    border-radius: 7px;
+    /* box-sizing: border-box; */
+    margin: -2.5px
 }
 
 .select {
@@ -100,4 +107,57 @@
 .headtwo {
     font-size: 14px;
     font-weight: 700;
+}
+
+.nav-cart i {
+    font-size: 30px
+}
+
+.nav-cart {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-ops {
+    width: 70%;
+}
+
+/* hero section */
+.hero-section {
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg {
+    color: black;
+    background-color: white;
+    height: 30px;
+    font-size: 14px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.hero-msg a {
+    color: green;
 }
