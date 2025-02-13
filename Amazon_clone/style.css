@@ -204,3 +204,19 @@
     cursor: pointer;
 }
 
+
+/* Footer */
+
+footer {
+    margin-top: 15px;
+}
+
+.footer1 {
+    height: 40px;
+    color: white;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
