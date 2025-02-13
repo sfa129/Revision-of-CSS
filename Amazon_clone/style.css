@@ -220,3 +220,29 @@ footer {
     align-items: center;
     font-size: 0.85rem;
 }
+
+.footer2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+    color: white;
+    padding-top: 2.5rem;
+}
+
+ul a {
+    display: block;
+    text-decoration: none;
+    color: #dddddd;
+    font-size: 14px;
+    line-height: 1.6rem;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+ul p {
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 12px;
+}
