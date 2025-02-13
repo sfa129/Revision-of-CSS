@@ -161,3 +161,46 @@
 .hero-msg a {
     color: green;
 }
+
+.hero-msg a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Boxes */
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box {
+    height: 420px;
+    width: 330px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-img {
+    height: 345px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.innerbox {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.innerbox p {
+    color: green;
+}
+.innerbox p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
