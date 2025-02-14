@@ -20,10 +20,8 @@
     background-image: url(logo.png);
     height: 70px;
     width: 300px;
+    background-size: contain;
 }
-
-
-
 
 .headings p {
     display: inline;
