@@ -66,7 +66,7 @@
 /* second portion */
 
 .second-portion {
-    height: 1000px;
+    height: 870px;
     background-color: #fff7e3;
     display: flex;
     justify-content: center;
@@ -74,9 +74,143 @@
 
 .box-img {
     background-image: url(boximage.gif);
-    height: 500px;
-    width: 250px;
+    height:650px;
+    width:1050px;
     background-size: cover;
-    border-radius: 10px;
-    margin-top: 250px;
+    border-radius: 30px;
+    margin-top:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-text h1 {
+    color: white;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 8px;
+    text-align: center;
+}
+
+.box-text h5 {
+    color: #e7e7e7;
+    font-size: 16px;
+    margin: 17px 0px 8px;
+    text-align: center;
+}
+
+.btns {
+    display: flex;
+    margin-top: 20px;
+}
+
+.box-btn1 {
+    height: 40px;
+    width: 330px;
+    background-color: #ffcc57;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    display: flex;
+}
+
+.box-btn1 p { 
+    font-size: 16px;
+    color: #000000;
+}
+
+.box-btn2 {
+    height: 40px;
+    width: 330px;
+    background-color: #ffcc57;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.box-btn2 p { 
+    font-size: 16px;
+    color: #000000;
+}
+
+.video iframe {
+    height: 370px;
+    width: 600px;
+    border-radius: 15px;
+    background-size: cover;
+}
+
+.video-portion {
+    background-color: #fff7e3;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+}
+
+.video-text h2 {
+    color: #1a244d;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.video-text p {
+    text-align: justify;
+    color: #696969;
+    font-size: 15px;
+    line-height: 1.75rem;
+}
+
+.video-text {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.video-text-btn {
+    height: 40px;
+    width: 230px;
+    background-color: #ffcc57;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-top: 15px
+}
+
+.video-text-btn p {
+    font-size: 16px;
+    color: #000000;
+}
+
+/* Choose Portion */
+
+.choose {
+    background-color: rgb(158, 158, 214);
+    height: 400px;
+
+}
+
+.choose h2 {
+    color: #1a244d;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.sections {
+    display: flex;
+    justify-content: center;
+}
+
+.section1 {
+    background-image: url(section1.gif);
+    height: 236px;
+    width: 236px;
 }
