@@ -206,7 +206,7 @@
 
 .sections {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .section1 {
@@ -214,3 +214,31 @@
     height: 236px;
     width: 236px;
 }
+
+.section2 {
+    background-image: url(section2.gif);
+    height: 236px;
+    width: 236px;
+}
+
+.section3 {
+    background-image: url(section3.gif);
+    height: 236px;
+    width: 236px;
+}
+
+.section4 {
+    background-image: url(section4.gif);
+    height: 236px;
+    width: 236px;
+}
+
+.sections h4 {
+    color: #1a244d;
+    font-size: 30px;
+    margin: 10px 0px 8px;
+    position: absolute;
+}
+
+
+
