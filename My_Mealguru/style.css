@@ -301,7 +301,7 @@
 
 .feedback {
     background-color: #FFF7E3;
-    height: 486px;
+    height: 430px;
     width: 100%;
     margin-top: 450px;
 }
@@ -355,10 +355,21 @@
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     margin-top: 53px;
+    display: flex;
 }
 
 .feedbox-box img {
     height: 45px;
     width: 45px;
-    padding: 10px 0px 10px 20px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 12px;
+}
+
+.feedbox-box p {
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 15px;
 }
