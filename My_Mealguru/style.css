@@ -192,8 +192,6 @@
 .choose {
     background-color: white;
     height: 500px;
-    display: block;
-    /* align-items: center; */
 }
 
 .choose h2 {
@@ -213,7 +211,6 @@
 .box {
     width: 220px;
     height: 380px;
-    display: block;
 }
 
 .box img {
@@ -299,3 +296,17 @@
     font-size: 16px;
     color: #000000;
 }
+
+/* acc-section */
+
+.acc-section {
+    height: 796px;
+    background-color: #b3f1ff;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+
+
+
