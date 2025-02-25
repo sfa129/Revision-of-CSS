@@ -29,7 +29,7 @@
     font-size: 15x;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 20px;
-}    
+}
 
 .button1 {
     height: 40px;
@@ -42,7 +42,7 @@
     margin-left: 15px;
 }
 
-.button1 p { 
+.button1 p {
     font-size: 13px;
     color: white;
 }
@@ -58,7 +58,7 @@
     margin-left: 15px;
 }
 
-.button2 p { 
+.button2 p {
     font-size: 13px;
     color: #000000;
 }
@@ -74,11 +74,11 @@
 
 .box-img {
     background-image: url(boximage.gif);
-    height:650px;
-    width:1050px;
+    height: 650px;
+    width: 1050px;
     background-size: cover;
     border-radius: 30px;
-    margin-top:150px;
+    margin-top: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,7 +116,7 @@
     display: flex;
 }
 
-.box-btn1 p { 
+.box-btn1 p {
     font-size: 16px;
     color: #000000;
 }
@@ -132,7 +132,7 @@
     margin-left: 25px;
 }
 
-.box-btn2 p { 
+.box-btn2 p {
     font-size: 16px;
     color: #000000;
 }
@@ -199,7 +199,7 @@
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 50px;
-    padding-bottom:30px;
+    padding-bottom: 30px;
     text-align: center;
 }
 
@@ -297,16 +297,62 @@
     color: #000000;
 }
 
-/* acc-section */
+/* feedback-section */
 
-.acc-section {
-    height: 796px;
-    background-color: #b3f1ff;
+.feedback {
+    background-color: #FFF7E3;
+    height: 486px;
     width: 100%;
-    position: relative;
-    z-index: 0;
+    margin-top: 450px;
 }
 
+/* .feedback-heading {
+    height: 156px;
+    background-color: white;
+    width: 80%;
+} */
 
+.feedback-heading h2 {
+    color: #1A244D;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-weight: 550;
+    text-align: center;
+    padding-top: 60px;
+}
 
+.feed-boxes {
+    display: flex;
+    justify-content: center;
+}
 
+.feed-box {
+    width: 380px;
+    height: 250px;
+    background-color: #ffffff;
+    /* padding: 32px 24px; */
+    border: 1px solid black;
+    margin: 60px;
+    border-radius: 20px;
+    display: block;
+    /* align-items: flex-end; */
+}
+
+.feedbox-text {
+    margin: 32px 24px 0px 24px;
+}
+
+.feedbox-text p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.feedbox-box {
+    background-color: #ffcc57;
+    height: 70px;
+    width: 380px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 98px;
+}
