@@ -328,12 +328,12 @@
 }
 
 .feed-box {
-    width: 380px;
-    height: 250px;
+    width: 280px;
+    height: 230px;
     background-color: #ffffff;
     /* padding: 32px 24px; */
     border: 1px solid black;
-    margin: 60px;
+    margin: 30px;
     border-radius: 20px;
     display: block;
     /* align-items: flex-end; */
@@ -344,15 +344,21 @@
 }
 
 .feedbox-text p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 25px;
 }
 
 .feedbox-box {
     background-color: #ffcc57;
-    height: 70px;
-    width: 380px;
+    height:70px;
+    width: 280px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    margin-top: 98px;
+    margin-top: 53px;
+}
+
+.feedbox-box img {
+    height: 45px;
+    width: 45px;
+    padding: 10px 0px 10px 20px;
 }
