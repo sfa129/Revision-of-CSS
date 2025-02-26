@@ -373,3 +373,29 @@
     margin-top: 15px;
     margin-left: 15px;
 }
+
+/* footer */
+
+.footer {
+    height: 333px;
+    width: 100%;
+    background-color: #1A244D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstcol img {
+    height: 70px;
+    width:250px;
+    background-size: contain;
+}
+
+.firstcol p {
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 25px;
+    margin-top: 20px;
+}
